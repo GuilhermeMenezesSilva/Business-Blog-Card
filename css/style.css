@@ -2,18 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: #F2F5F9;
+    background-color: #677489;
 }
 
 #container {
-    background-color: #FFFFFF;
-    margin: 50px 20px 0px 22px;
-    padding: 20px;
+    background-color: #F2F5F9;
+    margin: 50px 15px 0px 15px;
+    padding: 35px;
 }
 
 #container #imagem_principal {
     width: 100%;
     border-radius: 14px 14px 0 0;
+}
+
+#divisao {
+    background-color: #FFFFFF;
 }
 
 #container h1 {
@@ -33,19 +37,19 @@ body {
     word-break: break-all;
 }
 
-#container hr{
-    width: 113%;
+#divisao hr {
+    width: 99%;
     margin-top: 25px;
-    margin-left: -6.8%;
+    margin-left: 0.1%;
 }
 
-#container div{
+#depoimento {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#container div #icone{
+#depoimento #icone {
     border-radius: 50%;
     width: 40px;
     margin-top: 20px;
