@@ -81,3 +81,42 @@ body {
     margin-top: -25px;
     margin-left: 63px;
 }
+
+@media only screen and (min-width: 1280px) {
+    #container {
+        margin: 100px 230px 0 230px;
+        padding: 55px 215px;
+    }
+
+    #container #ondulada {
+        width: 104%;
+        margin-top: -53px;
+        margin-left: -3px;
+    }
+
+    #container h1 {
+        font-size: 1.8rem;
+    }
+
+    #container p {
+        font-size: 1.11rem;
+    }
+
+    #divisao hr {
+        margin-left: -3.9%;
+    }
+
+    #depoimento #icone {
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    #depoimento h3 {
+        font-size: 1.14rem;
+        margin-right: 200px;
+    }
+
+    #depoimento p {
+        margin-left: 80px;
+    }
+}
